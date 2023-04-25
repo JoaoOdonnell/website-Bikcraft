@@ -1,0 +1,63 @@
+#introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 88px;
+  padding: 0px 120px 120px 220px;
+  background: #000000;
+  height: 450px;
+}
+
+#introducao div {
+  color: #ffffff;
+  padding-top: 7rem;
+}
+
+.titulo-introducao {
+  font-family: var(--font-titulo);
+  font-size: 3.5rem;
+  line-height: 72px;
+}
+
+.titulo-introducao span {
+  color: #ffbb00;
+}
+
+.paragrafo-introducao {
+  font-family: var(--font-subtitulo);
+  font-size: 1.4rem;
+  line-height: 28px;
+  margin: 32px 0 40px 0;
+  color: #b2b2b2;
+}
+
+.botao-introducao {
+  padding: 20px 32px;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #332200;
+  font-family: var(--font-titulo);
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.bike-intro {
+  max-width: 100%;
+}
+
+@media (min-width: 1920px) {
+  #introducao {
+    height: 550px;
+  }
+
+  .titulo-introducao {
+    font-size: 5rem;
+    line-height: 92px;
+  }
+
+  .paragrafo-introducao {
+    font-size: 2rem;
+    line-height: 40px;
+  }
+}

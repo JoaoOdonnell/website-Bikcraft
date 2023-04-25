@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  background: var(--bg-black);
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 13.75rem 2rem 13.75rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.logo-header {
+  max-width: 100%;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
