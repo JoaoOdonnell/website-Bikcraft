@@ -1,0 +1,32 @@
+#parceiros {
+  margin-top: 200px;
+  padding: 0px 120px 100px 220px;
+}
+
+.conteiner-parceiros {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0px 20px;
+  list-style: none;
+}
+
+.conteiner-parceiros li {
+  padding: 32px;
+  display: flex;
+  border-right: 2px solid #ededed;
+}
+
+.conteiner-parceiros li:last-child,
+.conteiner-parceiros li:nth-child(4) {
+  border-right: none;
+}
+
+.conteiner-parceiros li:nth-child(n + 5) {
+  border-top: 2px solid #ededed;
+}
+
+.img-parceiros {
+  margin: auto;
+  max-width: 100%;
+}
