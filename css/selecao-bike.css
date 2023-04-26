@@ -1,0 +1,40 @@
+#bicicletas {
+  margin-top: 220px;
+}
+
+#bicicletas .titulo {
+  margin-left: 220px;
+}
+
+.selecao-bike {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  padding: 40px 70px;
+}
+
+.bike-option h2 {
+  font-family: "Poppins", sans-serif;
+  padding-left: 20px;
+  position: relative;
+}
+
+.bike-option h2::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  background: #ffbb00;
+  left: 2px;
+  top: 15px;
+}
+
+.bike-option span {
+  color: #595959;
+  font-family: "Roboto", sans-serif;
+  padding-left: 20px;
+}
+
+.bike-option img {
+  max-width: 100%;
+}

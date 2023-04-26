@@ -2,36 +2,34 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 88px;
-  padding: 0px 120px 120px 220px;
+  padding: 0px 120px 0px 220px;
   background: #000000;
-  height: 450px;
 }
 
 #introducao div {
   color: #ffffff;
-  padding-top: 7rem;
+  margin-top: 12rem;
 }
 
-.titulo-introducao {
+.titulo {
   font-family: var(--font-titulo);
-  font-size: 3.5rem;
+  font-size: 4rem;
   line-height: 72px;
 }
 
-.titulo-introducao span {
+.titulo span {
   color: #ffbb00;
 }
 
-.paragrafo-introducao {
+#introducao .paragrafo-introducao {
   font-family: var(--font-subtitulo);
-  font-size: 1.4rem;
-  line-height: 28px;
+  font-size: 2rem;
   margin: 32px 0 40px 0;
   color: #b2b2b2;
 }
 
 .botao-introducao {
-  padding: 20px 32px;
+  padding: 15px 30px;
   border-radius: 4px;
   background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
   text-decoration: none;
@@ -44,13 +42,11 @@
 
 .bike-intro {
   max-width: 100%;
+  position: relative;
+  top: 40px;
 }
 
 @media (min-width: 1920px) {
-  #introducao {
-    height: 550px;
-  }
-
   .titulo-introducao {
     font-size: 5rem;
     line-height: 92px;
@@ -59,5 +55,37 @@
   .paragrafo-introducao {
     font-size: 2rem;
     line-height: 40px;
+  }
+}
+
+@media (max-width: 1470px) {
+  .titulo {
+    font-size: 3.5rem;
+    line-height: 68px;
+  }
+
+  #introducao .paragrafo-introducao {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 1340px) {
+  #introducao {
+    padding: 0px 80px;
+  }
+}
+
+@media (max-width: 1160px) {
+  #introducao {
+    grid-template-columns: 1fr;
+    padding: 0px 150px 100px 150px;
+  }
+
+  #introducao div {
+    margin-top: 6rem;
+  }
+
+  .bike-intro {
+    display: none;
   }
 }

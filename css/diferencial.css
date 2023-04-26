@@ -1,0 +1,75 @@
+#diferencial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 88px;
+  margin-top: 200px;
+  padding: 72px 120px 0px 220px;
+  background: #111111;
+  height: 100vh;
+}
+
+#diferencial div p {
+  color: #b2b2b2;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+#diferencial .p1 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.015em;
+  margin-bottom: 20px;
+}
+
+#diferencial .titulo {
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.escolha {
+  color: #ffbb00;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  margin: 40px 0px 100px 0px;
+  position: relative;
+}
+
+.escolha::after {
+  content: "";
+  width: 350px;
+  height: 4px;
+  background-color: #ffbb00;
+  position: absolute;
+  left: 0px;
+  top: 45px;
+}
+
+.adicionais-diferencial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 40px;
+}
+
+.subtitulo-diferencial {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-size: 2rem;
+}
+
+#diferencial .adicionais-diferencial .p-diferencial {
+  font-size: 1.2rem;
+  line-height: 22px;
+}
+
+.img-ferramentas {
+  max-width: 100%;
+  position: relative;
+  top: -120px;
+}
+
+@media (max-width: 1300px) {
+  #diferencial {
+    padding: 100px 40px 0px 40px;
+  }
+}
