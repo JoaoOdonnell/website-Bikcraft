@@ -23,3 +23,9 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+@media (max-width: 900px) {
+  .header {
+    padding: 2rem 5rem;
+  }
+}

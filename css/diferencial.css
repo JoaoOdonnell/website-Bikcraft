@@ -73,3 +73,25 @@
     padding: 100px 40px 0px 40px;
   }
 }
+
+@media (max-width: 1170px) {
+  #diferencial {
+    padding: 50px 40px 0px 40px;
+  }
+  #diferencial div p {
+    font-size: 1.2rem;
+  }
+
+  #diferencial .titulo {
+    font-size: 3rem;
+    line-height: 50px;
+  }
+  .escolha {
+    font-size: 1.5rem;
+    margin: 40px 0px 50px 0px;
+  }
+
+  .escolha::after {
+    width: 260px;
+  }
+}

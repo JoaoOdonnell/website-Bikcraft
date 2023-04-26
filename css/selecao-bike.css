@@ -38,3 +38,13 @@
 .bike-option img {
   max-width: 100%;
 }
+
+@media (max-width: 850px) {
+  #bicicletas .titulo {
+    margin-left: 10rem;
+  }
+  .selecao-bike {
+    margin-left: 5rem;
+    grid-template-columns: 1fr;
+  }
+}
