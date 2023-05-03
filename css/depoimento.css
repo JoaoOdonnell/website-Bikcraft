@@ -1,0 +1,54 @@
+.depoimento {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 200px;
+}
+
+.img-depoimento {
+  width: 100%;
+}
+
+.container-paragrafo {
+  background: #ffbb00;
+  padding: 300px 180px 0 80px;
+}
+
+.texto-depoimento {
+  font-family: "Merriweather";
+  font-style: italic;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 4rem;
+  color: #332200;
+  display: inline-block;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.texto-depoimento::after {
+  content: "";
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  bottom: -15px;
+  right: -20px;
+  background: url(/img/aspas.svg) no-repeat center;
+}
+
+.texto-depoimento::before {
+  content: "";
+  width: 40px;
+  height: 35px;
+  position: absolute;
+  left: -50px;
+  background: url(/img/aspas2.svg) no-repeat center;
+}
+
+.nome-depoimento {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: #664400;
+}
