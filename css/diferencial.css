@@ -3,9 +3,8 @@
   grid-template-columns: 1fr 1fr;
   gap: 88px;
   margin-top: 200px;
-  padding: 72px 120px 0px 220px;
+  padding: 72px 120px 100px 220px;
   background: #111111;
-  height: 100vh;
 }
 
 #diferencial div p {
@@ -70,7 +69,7 @@
 
 @media (max-width: 1440px) {
   #diferencial {
-    padding: 100px 40px 20px 70px;
+    padding: 100px 40px 100px 70px;
   }
 
   .escolha {
@@ -80,7 +79,8 @@
 
 @media (max-width: 1170px) {
   #diferencial {
-    padding: 50px 40px 0px 40px;
+    grid-template-columns: 1fr;
+    padding-bottom: 100px;
   }
   #diferencial div p {
     font-size: 1.2rem;
@@ -97,5 +97,9 @@
 
   .escolha::after {
     width: 260px;
+  }
+
+  .img-ferramentas {
+    display: none;
   }
 }

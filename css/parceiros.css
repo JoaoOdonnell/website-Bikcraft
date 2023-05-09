@@ -22,11 +22,31 @@
   border-right: none;
 }
 
-.conteiner-parceiros li:nth-child(n + 5) {
+.conteiner-parceiros li:nth-child(n + 3) {
   border-top: 2px solid #ededed;
 }
 
 .img-parceiros {
   margin: auto;
   max-width: 100%;
+}
+
+@media (max-width: 1170px) {
+  #parceiros {
+    padding: 0px 40px 100px 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .conteiner-parceiros {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+  }
+
+  .conteiner-parceiros li:last-child,
+  .conteiner-parceiros li:nth-child(2),
+  .conteiner-parceiros li:nth-child(4),
+  .conteiner-parceiros li:nth-child(6) {
+    border-right: none;
+  }
 }

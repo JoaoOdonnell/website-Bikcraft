@@ -10,7 +10,7 @@
 
 .container-paragrafo {
   background: #ffbb00;
-  padding: 300px 180px 0 80px;
+  padding: 40px 180px 0 80px;
 }
 
 .texto-depoimento {
@@ -20,7 +20,7 @@
   font-size: 3rem;
   line-height: 4rem;
   color: #332200;
-  display: inline-block;
+  margin-top: 200px;
   margin-bottom: 40px;
   position: relative;
 }
@@ -51,4 +51,42 @@
   font-size: 1.5rem;
   line-height: 2rem;
   color: #664400;
+}
+
+@media (max-width: 1800px) {
+  .texto-depoimento {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .texto-depoimento {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container-paragrafo {
+    padding-right: 100px;
+  }
+
+  .texto-depoimento {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width: 990px) {
+  .texto-depoimento {
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  .depoimento {
+    grid-template-columns: 1fr;
+  }
 }
