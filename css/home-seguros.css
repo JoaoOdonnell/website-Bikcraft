@@ -1,0 +1,117 @@
+.seguros {
+  background: #111111;
+  padding: 60px 120px 100px 220px;
+  font-family: "poppins", open sans;
+}
+
+.seguros .titulo {
+  color: #ffffff;
+}
+
+.container-seguros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.blocos-seguros {
+  background: #000000;
+  padding: 32px 64px;
+  color: #ffffffff;
+  border-radius: 5px;
+}
+
+.blocos-seguros div {
+  display: flex;
+  gap: 200px;
+  margin-bottom: 40px;
+}
+
+.titulo-prata {
+  font-size: 2.25rem;
+  color: #9c9c9c;
+}
+
+.preco {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+.lista-bloco {
+  list-style: none;
+  font-size: 1.125rem;
+}
+
+.lista-bloco li:nth-child(n + 2) {
+  margin-top: 20px;
+}
+
+.lista-bloco li {
+  position: relative;
+}
+.lista-bloco li::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  background: url("/img/Vector-ok.svg") no-repeat;
+  left: -20px;
+  top: 10px;
+}
+
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  margin-top: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+
+.cor-bota-prata {
+  color: #cccccc;
+  background: #2e2e2e;
+}
+
+.titulo-ouro {
+  font-size: 2.25rem;
+  color: #ffbb00;
+}
+
+.cor-bota-ouro {
+  color: #332200;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.blocos-seguros a {
+  text-decoration: none;
+}
+
+@media (max-width: 900px) {
+  .container-seguros {
+    justify-content: start;
+  }
+
+  .blocos-seguros div {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .preco {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .seguros {
+    padding-left: 80px;
+  }
+
+  .botao {
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+}
