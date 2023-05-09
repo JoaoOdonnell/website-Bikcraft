@@ -10,7 +10,10 @@
 
 .container-paragrafo {
   background: #ffbb00;
-  padding: 40px 180px 0 80px;
+  display: flex;
+  justify-content: center;
+  padding-left: 100px;
+  flex-direction: column;
 }
 
 .texto-depoimento {
@@ -20,9 +23,10 @@
   font-size: 3rem;
   line-height: 4rem;
   color: #332200;
-  margin-top: 200px;
-  margin-bottom: 40px;
+  margin-top: 100px;
+  margin-bottom: 30px;
   position: relative;
+  max-width: 550px;
 }
 
 .texto-depoimento::after {
