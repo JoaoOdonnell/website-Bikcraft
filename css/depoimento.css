@@ -68,6 +68,10 @@
   .texto-depoimento {
     margin-top: 50px;
   }
+
+  .texto-depoimento::after {
+    right: 0px;
+  }
 }
 
 @media (max-width: 1200px) {
