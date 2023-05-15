@@ -1,14 +1,19 @@
 #introducao {
+  background: #000000;
+  padding: 0px 80px;
+}
+
+.container-introducao {
+  max-width: 1300px;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 88px;
-  padding: 0px 120px 0px 220px;
-  background: #000000;
 }
 
 #introducao div {
   color: #ffffff;
-  margin-top: 12rem;
+  padding-top: 40px;
 }
 
 .titulo {
@@ -69,20 +74,10 @@
   }
 }
 
-@media (max-width: 1340px) {
-  #introducao {
-    padding: 0px 80px;
-  }
-}
-
 @media (max-width: 1160px) {
-  #introducao {
+  .container-introducao {
     grid-template-columns: 1fr;
-    padding: 0px 150px 100px 150px;
-  }
-
-  #introducao div {
-    margin-top: 6rem;
+    padding-bottom: 30px;
   }
 
   .bike-intro {

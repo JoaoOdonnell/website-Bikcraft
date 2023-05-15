@@ -1,16 +1,19 @@
 #bicicletas {
-  margin-top: 220px;
+  padding: 220px 80px 0px 80px;
+  max-width: 1300px;
+  margin: 0 auto;
+  justify-content: center;
 }
 
 #bicicletas .titulo {
-  margin-left: 220px;
+  margin-bottom: 50px;
 }
 
 .selecao-bike {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  padding: 40px 70px;
+  padding: 0px 70px;
 }
 
 .bike-option h2 {
@@ -37,14 +40,15 @@
 
 .bike-option img {
   max-width: 100%;
+  transition: transform 0.5s;
+}
+
+.bike-option img:hover {
+  transform: scale(1.02);
 }
 
 @media (max-width: 850px) {
-  #bicicletas .titulo {
-    margin-left: 10rem;
-  }
   .selecao-bike {
-    margin-left: 5rem;
     grid-template-columns: 1fr;
   }
 }

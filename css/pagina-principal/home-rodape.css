@@ -1,49 +1,67 @@
 .rodape {
   background: #000000;
-  padding: 60px 120px 80px 220px;
   font-family: "poppins", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
 }
 
 .container-rodape {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px 80px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   color: #ffffffff;
+}
+.titulo-rodape {
+  margin-bottom: 20px;
 }
 
 .rodape img {
   max-width: 100%;
 }
 
-.titulo-rodape {
+.contato-list li a {
+  text-decoration: none;
+  color: #b2b2b2;
+}
+
+.contato-list li a:hover {
+  color: #ffffff;
+}
+
+.contato-list li {
   margin-bottom: 20px;
 }
 
-.contato-rodape span {
+.contato-rodape .contato-list li a::after {
+  content: "";
   display: block;
-  margin-bottom: 20px;
-  color: #b2b2b2;
-  position: relative;
-  padding-bottom: 20px;
-  border-bottom: 5px solid #111111;
+  max-width: 360px;
+  height: 2px;
+  background: #111111;
+  margin-top: 16px;
 }
 
 .contato-rodape img {
   margin-right: 20px;
 }
 
-.informacoes ul {
-  list-style: none;
+.contato-redes img:hover {
+  transform: scale(1.1);
 }
 
 .titulo-informacoes {
   margin-bottom: 20px;
 }
 
-.informacoes ul li {
+.informacoes li {
   margin-bottom: 10px;
+}
+
+.font-2 {
   color: #b2b2b2;
+  list-style: none;
 }
 
 .direitos {
@@ -63,7 +81,4 @@
 }
 
 @media (max-width: 680px) {
-  .rodape {
-    padding-left: 80px;
-  }
 }
