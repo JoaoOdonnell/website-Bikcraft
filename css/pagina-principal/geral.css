@@ -8,6 +8,7 @@
 @import url("./introducao.css");
 @import url("./parceiros.css");
 @import url("./selecao-bike.css");
+@import url("/css/pagina-bicicletas/intro-bicicletas.css");
 
 * {
   margin: 0;
