@@ -22,6 +22,25 @@
 .menu li a {
   color: #ffffff;
   text-decoration: none;
+  position: relative;
+}
+
+.menu li a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 2px;
+  width: 0%;
+  background: #ffffff;
+  transition: 0.3s;
+}
+
+.menu li a:hover {
+  color: var(--font-2);
+}
+
+.menu li a:hover::after {
+  width: 100%;
 }
 
 @media (max-width: 900px) {

@@ -9,6 +9,7 @@
 @import url("./parceiros.css");
 @import url("./selecao-bike.css");
 @import url("/css/pagina-bicicletas/intro-bicicletas.css");
+@import url("/css/pagina-bicicletas/bikes.css");
 
 * {
   margin: 0;
@@ -19,4 +20,14 @@
   --bg-black: #000000;
   --font-titulo: "Poppins", sans-serif;
   --font-subtitulo: "Roboto", sans-serif;
+  --font-1: #ffffff;
+  --font-2: #b2b2b2;
+}
+
+.font-1 {
+  color: var(--font-1);
+}
+
+.font-2 {
+  color: var(--font-2);
 }
