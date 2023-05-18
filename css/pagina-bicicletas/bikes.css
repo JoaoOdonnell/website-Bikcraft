@@ -68,6 +68,7 @@
 .equipamentos-bike ul {
   list-style: none;
   font-size: 1.125rem;
+  align-self: end;
 }
 
 .equipamentos-bike ul li {
@@ -77,6 +78,7 @@
 }
 
 .bt-bikes {
+  display: inline-block;
   align-self: end;
   justify-self: start;
   padding: 16px 32px;
@@ -88,6 +90,7 @@
   color: #332200;
   text-transform: uppercase;
   font-weight: 600;
+  font-family: var(--font-titulo);
 }
 
 .bt-bikes img {

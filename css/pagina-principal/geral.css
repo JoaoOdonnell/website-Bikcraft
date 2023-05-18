@@ -10,6 +10,7 @@
 @import url("./selecao-bike.css");
 @import url("/css/pagina-bicicletas/intro-bicicletas.css");
 @import url("/css/pagina-bicicletas/bikes.css");
+@import url("/css/bicicletas-page2/bike-detalhe.css");
 
 * {
   margin: 0;
