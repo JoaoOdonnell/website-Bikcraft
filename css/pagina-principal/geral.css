@@ -11,6 +11,8 @@
 @import url("/css/pagina-bicicletas/intro-bicicletas.css");
 @import url("/css/pagina-bicicletas/bikes.css");
 @import url("/css/bicicletas-page2/bike-detalhe.css");
+@import url("/css/bicicletas-page2/selecao-bike-page2.css");
+@import url("/css/bicicletas-page2/seguros-page2.css");
 
 * {
   margin: 0;

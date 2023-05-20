@@ -1,11 +1,10 @@
-#bicicletas {
+.bicicletas {
   padding: 220px 80px 0px 80px;
   max-width: 1300px;
   margin: 0 auto;
-  justify-content: center;
 }
 
-#bicicletas .titulo {
+.bicicletas .titulo {
   margin-bottom: 50px;
 }
 

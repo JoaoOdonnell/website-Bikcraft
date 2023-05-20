@@ -1,0 +1,60 @@
+.seguro-page2 {
+  background: linear-gradient(to top, #000 30%, #111111 0%);
+
+  margin-top: 220px;
+}
+
+.container-seguro-p2 {
+  padding: 40px 80px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.container-seguro-p2 img {
+  max-width: 100%;
+  position: relative;
+  left: 0px;
+  top: -100px;
+}
+.container-seguro-p2 div {
+  padding-top: 50px;
+}
+
+.container-seguro-p2 .titulo {
+  color: #ffffffff;
+  margin-bottom: 30px;
+}
+
+.container-seguro-p2 .descricao-bike {
+  margin-bottom: 20px;
+}
+
+.rodape-page2 .container-rodape {
+  padding-top: 0px;
+}
+
+@media (max-width: 1300px) {
+  .seguro-page2 {
+    background: #111111;
+  }
+  .container-seguro-p2 img {
+    position: static;
+  }
+
+  .rodape-page2 .container-rodape {
+    padding-top: 80px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container-seguro-p2 {
+    grid-template-columns: 1fr;
+  }
+
+  .container-seguro-p2 img {
+    display: none;
+  }
+}

@@ -91,6 +91,11 @@
   text-transform: uppercase;
   font-weight: 600;
   font-family: var(--font-titulo);
+  transition: transform 0.3s;
+}
+
+.bt-bikes:hover {
+  transform: scale(1.1);
 }
 
 .bt-bikes img {

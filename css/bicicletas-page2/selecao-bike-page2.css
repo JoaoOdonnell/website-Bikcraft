@@ -1,0 +1,13 @@
+.bicileta2 .selecao-bike {
+  grid-template-columns: 1fr 1fr;
+}
+
+.bicileta2 .bike-option:nth-child(2) {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .bicileta2 .selecao-bike {
+    grid-template-columns: 1fr;
+  }
+}
