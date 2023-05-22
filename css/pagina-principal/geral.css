@@ -13,6 +13,8 @@
 @import url("/css/bicicletas-page2/bike-detalhe.css");
 @import url("/css/bicicletas-page2/selecao-bike-page2.css");
 @import url("/css/bicicletas-page2/seguros-page2.css");
+@import url("/css/seguro-page/vantagens.css");
+@import url("/css/seguro-page/perguntas.css");
 
 * {
   margin: 0;

@@ -10,6 +10,13 @@
   padding: 80px 80px;
 }
 
+.subtitulo {
+  font-family: var(--font-subtitulo);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #b2b2b2;
+}
+
 .seguros .titulo {
   color: #ffffff;
 }
