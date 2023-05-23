@@ -34,6 +34,7 @@
 }
 
 .botao-introducao {
+  display: inline-block;
   padding: 15px 30px;
   border-radius: 4px;
   background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
@@ -43,6 +44,11 @@
   font-family: var(--font-titulo);
   font-weight: 500;
   font-size: 1rem;
+  transition: transform 0.3s;
+}
+
+.botao-introducao:hover {
+  transform: scale(1.1);
 }
 
 .bike-intro {
