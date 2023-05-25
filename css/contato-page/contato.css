@@ -5,3 +5,51 @@
 .contato-header .titulo {
   color: #ffffff;
 }
+
+.intro-contato {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.bloco-contato {
+  background: linear-gradient(to top, #ffffff 30%, #111111 0%);
+}
+
+.container-bloco-contato {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.dados-contato {
+  background-color: #000000;
+  padding: 60px;
+}
+
+.dados-contato h4 {
+  color: #ffffff;
+  font-family: var(--font-titulo);
+  font-size: 1rem;
+  margin-bottom: 60px;
+}
+
+.dados-contato ul {
+  list-style: none;
+}
+
+.dados-contato li {
+  color: #cccccc;
+  font-size: 1rem;
+  font-family: var(--font-subtitulo);
+}
+
+.bloco-dados {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.bloco-dados img {
+  max-width: 100%;
+  display: inline-block;
+}
