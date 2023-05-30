@@ -36,7 +36,7 @@
     <div class="container-bloco-contato">
       <div class="dados-contato">
         <h4>Loja Online</h4>
-        <div class="bloco-dados">
+        <div class="bloco-dados endereco">
           <ul>
             <li>Rua Ali Perto, 35</li>
             <li>Rio de Janeiro - RJ</li>
@@ -44,31 +44,32 @@
           </ul>
         </div>
 
-        <address class="bloco-dados email">
+        <adress class="bloco-dados email">
           <ul>
-            <a href="">
+            <a href="#">
               <li>vendas@bikcraft.com</li>
             </a>
-            <a href="">
+            <a href="#">
               <li>assistencia@bikcraft.com</li>
             </a>
           </ul>
-        </address>
+        </adress>
 
-        <div class="bloco-dados">
+        <div class="bloco-dados telefone-dados">
           <ul>
             <li>+55 21 9999-9999</li>
           </ul>
         </div>
 
         <div class="redes-sociais">
-          <a href="https://www.instagram.com/"><img src="/img/instagram.svg" alt="icone-instagram"></a>
-          <a href="https://www.facebook.com/"><img src="/img/facebook.svg" alt="icone-facebook"></a>
-          <a href="https://www.youtube.com/"><img src="/img/youtube.svg" alt="icone-youtube"></a>
+          <a href="https://www.instagram.com/" target="_blank"><img src="/img/instagram-p.svg"
+              alt="icone-instagram"></a>
+          <a href="https://www.facebook.com/" target="_blank"><img src="/img/facebook-p.svg" alt="icone-facebook"></a>
+          <a href="https://www.youtube.com/" target="_blank"><img src="/img/youtube-p.svg" alt="icone-youtube"></a>
         </div>
       </div>
 
-      <div class="formulario-contato">
+      <form class="formulario-contato">
         <div>
           <label for="nome">Nome</label>
           <input type="text" name="nome" id="nome" placeholder="Seu nome">
@@ -79,18 +80,96 @@
           <input type="text" name="telefone" id="telefone" placeholder="(51) 9999-9999">
         </div>
 
-        <div>
+        <div class="col-2">
           <label for="email">Email</label>
           <input type="email" name="email" id="email" placeholder="contato@email.com">
         </div>
 
-        <div>
+        <div class="col-2">
           <label for="mensagem">Mensagem</label>
-          <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="o que você precisa?"></textarea>
+          <textarea name="mensagem" id="mensagem" cols="30" rows="5" placeholder="O que você precisa?"></textarea>
         </div>
 
-        <button class="btn-formulario">Enviar mensagem</button>
-      </div>
+        <button class="botao col-2">Enviar mensagem</button>
+      </form>
     </div>
   </section>
+
+  <article class="locais">
+    <h1 class="titulo">lojas locais<span>.</span></h1>
+
+    <div class="container-locais">
+
+      <div class="bloco-locais">
+        <img src="/img/rio.png" alt="mapa Rio de Janeiro">
+        <div class="descricao-local">
+          <h3>Rio de Janeiro</h3>
+          <div class="info-local">
+            <div>
+              <span>Rua Ali Perto, 25</span>
+              <span>Rio de Janerio - RJ</span>
+            </div>
+            <div>
+              <span>rio@bikcraft.com</span>
+              <span>21 9999-9999</span>
+            </div>
+          </div>
+          <span class="hora-atendimento">-08-18h de seg à dom</span>
+        </div>
+      </div>
+
+      <div class="bloco-locais">
+        <img src="/img/sp.png" alt="mapa São Paulo">
+        <div class="descricao-local">
+          <h3>São Paulo</h3>
+          <div class="info-local">
+            <div>
+              <span>Rua Ali Perto, 25</span>
+              <span>São Paulo - SP</span>
+            </div>
+            <div>
+              <span>sp@bikcraft.com</span>
+              <span>11 9999-9999</span>
+            </div>
+          </div>
+          <span class="hora-atendimento">-08-18h de seg à dom</span>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <footer class="rodape">
+
+    <div class="container-rodape">
+      <img src="/img/bikcraft.svg" alt="logo">
+
+      <div class="contato-rodape">
+        <h3 class="titulo-rodape">CONTATO</h3>
+
+        <ul class="font-2 contato-list">
+          <li><a href="tel:+552199999999">+55 21 9999-9999</a></li>
+          <li><a href="mailto: contato@bikcraft.com">contato@bikcraft.com</a></li>
+          <li>Rua Ali Perto, 42 - Botafogo <br>
+            Rio de Janeiro - RJ</li>
+        </ul>
+
+        <div class="contato-redes">
+          <a href="https://www.instagram.com/" target="blank"><img src="/img/instagram.svg" alt="icon instagram"></a>
+          <a href="https://www.facebook.com/" target="blank"><img src="/img/facebook.svg" alt="icon facebook"></a>
+          <a href="https://www.youtube.com/" target="blank"><img src="/img/youtube.svg" alt="icon youtube"></a>
+        </div>
+      </div>
+
+      <div class="informacoes">
+        <h3 class="titulo-rodape">INFORMAÇÕES</h3>
+        <ul class="font-2 contato-list">
+          <li><a href="/bicicletas.html">Bicicletas</a></li>
+          <li><a href="/seguro.html">Seguros</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+          <li><a href="">Termos e condições</a></li>
+        </ul>
+      </div>
+      <span class="direitos">Bikcraft © Alguns direitos reservados.</span>
+    </div>
+  </footer>
 </body>

@@ -60,6 +60,11 @@ body {
   font-family: var(--font-subtitulo);
 }
 
+.email {
+  padding-left: 28px;
+  background: url("/img/email.svg") no-repeat 1px 2px;
+}
+
 .email a {
   text-decoration: none;
   font-style: normal;
@@ -74,7 +79,175 @@ body {
   margin-bottom: 30px;
 }
 
-.bloco-dados img {
+.bloco-dados li {
+  margin-bottom: 5px;
+}
+
+.endereco {
+  background: url("/img/local.svg") no-repeat 1px 2px;
+  padding-left: 28px;
+}
+
+.telefone-dados {
+  background: url("/img/telefone.svg") no-repeat 1px 2px;
+  padding-left: 28px;
+}
+
+.redes-sociais {
+  display: flex;
+  gap: 32px;
+  padding-left: 28px;
+  transition: transform 0.3s;
+}
+
+.redes-sociais a :hover {
+  transform: scale(1.1);
+}
+
+.formulario-contato {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  background: #ffffff;
+  gap: 20px;
+}
+
+.formulario-contato label {
+  font-family: var(--font-titulo);
+  font-size: 1rem;
+  color: #111111;
+  font-weight: 500;
+}
+
+.formulario-contato input[type="text"],
+.formulario-contato input[type="email"],
+.formulario-contato textarea {
+  font-family: var(--font-subtitulo);
+  color: #717171;
+  background: #f7f7f7;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario-contato .botao {
+  color: #332200;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: none;
+  border: none;
+}
+
+.formulario-contato .botao:hover {
+  transform: scale(1);
+}
+
+.formulario-contato input[type="text"]:focus,
+.formulario-contato input[type="email"]:focus,
+.formulario-contato textarea:focus {
+  outline: none;
+  border-color: #ffbb00;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.formulario-contato .col-2 {
+  grid-column: span 2;
+}
+
+.locais {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.container-locais {
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.container-locais img {
   max-width: 100%;
-  display: inline-block;
+  box-sizing: border-box;
+}
+
+.descricao-local {
+  background-color: #ffffff;
+  padding: 32px 60px;
+}
+
+.descricao-local h3 {
+  font-family: var(--font-titulo);
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000;
+  position: relative;
+}
+
+.descricao-local h3:before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background: #ffbb00;
+  top: 20px;
+  left: -20px;
+  position: absolute;
+}
+
+.info-local {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 75px;
+  margin: 32px 0px 32px 0px;
+}
+
+.info-local div {
+  padding-left: 12px;
+  border-left: 2px solid #ededed;
+}
+
+.info-local span {
+  display: block;
+  font-family: var(--font-subtitulo);
+  font-size: 1rem;
+  color: #595959;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.hora-atendimento {
+  font-family: var(--font-titulo);
+  font-size: 1rem;
+  font-weight: 600;
+  color: #000000;
+  position: relative;
+}
+.hora-atendimento:before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  top: 1px;
+  left: -25px;
+  background: url("/img/horario.svg") no-repeat;
+  position: absolute;
+}
+
+@media (max-width: 800px) {
+  .container-bloco-contato {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario-contato {
+    grid-template-columns: 1fr;
+  }
+
+  .formulario-contato .col-2 {
+    grid-column: 1;
+  }
+
+  .container-locais {
+    grid-template-columns: 1fr;
+  }
 }
