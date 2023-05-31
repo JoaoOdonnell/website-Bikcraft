@@ -1,0 +1,38 @@
+.titulo-termos {
+  background: #111111;
+}
+
+.titulo-termos div {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.titulo-termos .titulo {
+  color: #ffffff;
+}
+
+.termos-condicoes {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 80px;
+}
+
+.termos-condicoes h3 {
+  font-family: var(--font-titulo);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.termos-condicoes ul {
+  list-style: none;
+}
+
+.termos-condicoes ul:not(:last-child) {
+  margin-bottom: 48px;
+}
+
+.termos-condicoes ul li {
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+}

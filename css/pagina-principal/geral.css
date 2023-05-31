@@ -16,6 +16,7 @@
 @import url("/css/seguro-page/vantagens.css");
 @import url("/css/seguro-page/perguntas.css");
 @import url("/css/contato-page/contato.css");
+@import url("/css/termos-condicoes/termos.css");
 
 * {
   margin: 0;
@@ -36,4 +37,12 @@
 
 .font-2 {
   color: var(--font-2);
+}
+
+.font-t {
+  font-family: var(--font-titulo);
+}
+
+.font-st {
+  font-family: var(--font-subtitulo);
 }
