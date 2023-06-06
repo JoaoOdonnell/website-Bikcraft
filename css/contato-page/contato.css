@@ -152,7 +152,7 @@ body {
   box-shadow: 0 0 0 2px #fea;
 }
 
-.formulario-contato .col-2 {
+.col-2 {
   grid-column: span 2;
 }
 

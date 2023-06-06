@@ -1,0 +1,120 @@
+.selecao-orcamento {
+  background: #000000;
+  color: #cccccc;
+  padding: 60px;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-orcamento {
+  background: #ffffff;
+  padding: 60px;
+  border-radius: 0px 5px 5px 0px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #ffffff;
+  gap: 20px;
+}
+
+.formulario-orcamento h2 {
+  font-size: 0.75rem;
+  color: #404040;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.formulario-orcamento h2::before {
+  content: "";
+  width: 4px;
+  height: 8px;
+  background: #ffbb00;
+  position: absolute;
+  left: -8px;
+  top: 8px;
+}
+
+.formulario-orcamento label {
+  font-family: var(--font-titulo);
+  color: #111111;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 24px;
+  display: block;
+}
+
+.formulario-orcamento input[type="text"],
+.formulario-orcamento input[type="email"],
+.formulario-orcamento textarea {
+  font-family: var(--font-subtitulo);
+  color: #717171;
+  background: #f7f7f7;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.formulario-orcamento input[type="text"]:focus,
+.formulario-orcamento input[type="email"]:focus,
+.formulario-orcamento textarea:focus {
+  outline: none;
+  border-color: #ffbb00;
+  box-shadow: 0 0 0 2px #fea;
+}
+
+.formulario-orcamento select {
+  font-family: var(--font-subtitulo);
+  color: #717171;
+  background: #f7f7f7;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  padding: 12px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.aceite-termo {
+  display: flex;
+  gap: 12px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #111111;
+}
+
+.aceite-termo input[type="checkbox"] {
+  box-sizing: border-box;
+  background: #f7f7f7;
+  border: 1px solid #ededed;
+  border-radius: 5px;
+  width: 24px;
+  height: 24px;
+}
+
+.aceite-termo a {
+  color: #111111;
+}
+
+.formulario-orcamento button {
+  color: #332200;
+  background: linear-gradient(180deg, #ffbf00 0%, #f2a50c 100%);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: none;
+  border: none;
+  border-radius: 5px;
+  padding: 16px 32px;
+  justify-self: start;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+}

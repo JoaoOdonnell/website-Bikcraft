@@ -17,6 +17,7 @@
 @import url("/css/seguro-page/perguntas.css");
 @import url("/css/contato-page/contato.css");
 @import url("/css/termos-condicoes/termos.css");
+@import url("/css/orcamento/orcamento.css");
 
 * {
   margin: 0;

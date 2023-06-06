@@ -34,69 +34,88 @@
 
   <section class="bloco-contato">
     <div class="container-bloco-contato">
+      <div class="selecao-orcamento">
+        <h2>Bikcraft ou seguro?</h2>
+        <div>
+          <input type="radio" name="bikcraft" id="bikcraft">
+          <label for="bikcraft">bikcraft</label>
+        </div>
 
+        <div>
+          <input type="radio" name="seguros-esc" id="seguros-esc">
+          <label for="seguros-esc">Seguro</label>
+        </div>
+        <h2>Escolha a sua</h2>
+        <div>
+          <input type="radio" name="bicicleta-escolhida" id="bicicleta-escolhida">
+          <label for="bicicleta-escolhida">Nimbus Stark</label>
+        </div>
+        <div>
+          <label for=""></label>
+        </div>
+      </div>
+
+      <form class="formulario-orcamento">
+        <h2 class="font-t col-2">dados pessoais</h2>
+        <div>
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" placeholder="Seu nome">
+        </div>
+
+        <div>
+          <label for="sobrenome">Sobrenome</label>
+          <input type="text" name="sobrenome" id="sobrenome">
+        </div>
+
+        <div class="col-2">
+          <label for="CPF">CPF</label>
+          <input type="text" name="CPF" id="CPF" placeholder="000.000.000-00">
+        </div>
+
+        <div class="col-2">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+
+        <h2 class="col-2 font-t">ENTREGA</h2>
+
+        <div>
+          <label for="cep">CEP</label>
+          <input type="text" name="cep" id="cep">
+        </div>
+        <div>
+          <label for="numero">Número</label>
+          <input type="text" name="numero" id="numero">
+        </div>
+        <div>
+          <label for="logradouro">Logradouro</label>
+          <input type="text" name="logradouro" id="logradouro" placeholder="Rua, avenida...">
+        </div>
+        <div>
+          <label for="bairro">Bairro</label>
+          <input type="text" name="bairro" Bairro="bairro">
+        </div>
+        <div>
+          <label for="cidade">Cidade</label>
+          <input type="text" name="cidade" Bairro="cidade">
+        </div>
+        <div>
+          <label for="estado">Estado</label>
+          <select name="estado" id="estado">
+            <option value="">Selecione</option>
+            <option value="rio">Rio de Janeiro</option>
+            <option value="sp">São Paulo</option>
+          </select>
+        </div>
+
+        <div class="aceite-termo">
+          <input type="checkbox" name="aceite-termo" id="aceite-termo">
+          <p>Li e aceito os <a href="/termos.html">termos e condições.</a></p>
+        </div>
+
+        <button class="col-2">solicitar orçamento</button>
+      </form>
     </div>
-
-    <form class="formulario-orcamento">
-      <h2 class="subtitulo col-2">dados pessoais</h2>
-      <div>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome" placeholder="Seu nome">
-      </div>
-
-      <div>
-        <label for="sobrenome">Sobrenome</label>
-        <input type="text" name="sobrenome" id="sobrenome">
-      </div>
-
-      <div class="col-2">
-        <label for="CPF">CPF</label>
-        <input type="text" name="CPF" id="CPF" placeholder="000.000.000-00">
-      </div>
-
-      <div class="col-2">
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-      </div>
-
-      <h2 class="col-2 subtitulo">ENTREGA</h2>
-
-      <div>
-        <label for="cep">CEP</label>
-        <input type="text" name="cep" id="cep">
-      </div>
-      <div>
-        <label for="numero">Número</label>
-        <input type="text" name="numero" id="numero">
-      </div>
-      <div>
-        <label for="logradouro">Logradouro</label>
-        <input type="text" name="logradouro" id="logradouro" placeholder="Rua, avenida...">
-      </div>
-      <div>
-        <label for="bairro">Bairro</label>
-        <input type="text" name="bairro" Bairro="bairro">
-      </div>
-      <div>
-        <label for="cidade">Cidade</label>
-        <input type="text" name="cidade" Bairro="cidade">
-      </div>
-      <div>
-        <select name="estado" id="estado">
-          <option value="">Selecione</option>
-          <option value="rio">Rio de Janeiro</option>
-          <option value="sp">São Paulo</option>
-        </select>
-      </div>
-
-      <div>
-        <input type="checkbox" name="aceite-termo" id="aceite-termo">
-        <p>Li e aceito os <a href="/termos.html">termos e condições.</a></p>
-      </div>
-
-      <button>solicitar orçamento</button>
-    </form>
-
   </section>
 
 
