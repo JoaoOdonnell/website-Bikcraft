@@ -33,26 +33,24 @@
   </article>
 
   <section class="bloco-contato">
-    <div class="container-bloco-contato">
+    <div class="container-bloco-contato orcamento-container">
       <div class="selecao-orcamento">
         <h2>Bikcraft ou seguro?</h2>
-        <div>
-          <input type="radio" name="bikcraft" id="bikcraft">
-          <label for="bikcraft">bikcraft</label>
+        <input type="radio" name="tipo" id="bikcraft" value="bikcraft">
+        <label for="bikcraft">bikcraft</label>
+
+        <input type="radio" name="tipo" id="seguro" value="seguro">
+        <label for="seguro">Seguro</label>
+
+
+        <div class="orcamento-conteudo" id="orcamento-bikecraft">
+          <h2>Escolha a sua</h2>
         </div>
 
-        <div>
-          <input type="radio" name="seguros-esc" id="seguros-esc">
-          <label for="seguros-esc">Seguro</label>
+        <div class="orcamento-conteudo" id="orcamento-seguro">
+          <h2>Escolha o plano</h2>
         </div>
-        <h2>Escolha a sua</h2>
-        <div>
-          <input type="radio" name="bicicleta-escolhida" id="bicicleta-escolhida">
-          <label for="bicicleta-escolhida">Nimbus Stark</label>
-        </div>
-        <div>
-          <label for=""></label>
-        </div>
+
       </div>
 
       <form class="formulario-orcamento">

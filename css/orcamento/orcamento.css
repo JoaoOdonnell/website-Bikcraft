@@ -23,17 +23,21 @@
   font-weight: 600;
   line-height: 24px;
   text-transform: uppercase;
-  position: relative;
 }
 
-.formulario-orcamento h2::before {
+.orcamento-container h2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.orcamento-container h2::before {
   content: "";
   width: 4px;
   height: 8px;
   background: #ffbb00;
   position: absolute;
   left: -8px;
-  top: 8px;
 }
 
 .formulario-orcamento label {
