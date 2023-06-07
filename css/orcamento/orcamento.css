@@ -122,3 +122,22 @@
   line-height: 24px;
   text-transform: uppercase;
 }
+
+.selecao-orcamento label {
+  margin: 20px 20px 0px 0px;
+  background: #2e2e2e;
+  padding: 16px 38px;
+  display: inline-block;
+}
+
+.orcamento-conteudo {
+  padding: 20px;
+  background: #222;
+  margin: 20px 0px;
+  display: none;
+}
+
+#bikcraft:checked ~ #orcamento-bikcraft,
+#seguro:checked ~ #orcamento-seguro {
+  display: block;
+}
