@@ -5,7 +5,7 @@
 }
 
 .bg-green {
-  background: #f7f7f7;
+  background: #e2e2e2;
 }
 
 .perguntas dl {
@@ -34,9 +34,25 @@
   left: -20px;
 }
 
+.perguntas dt::after {
+  content: "";
+  background: url("/img/seta-fechar.png");
+  width: 14px;
+  height: 6px;
+  position: absolute;
+  cursor: pointer;
+  top: 15px;
+  right: 300px;
+}
+
 .perguntas dd {
   font-family: var(--font-subtitulo);
   font-size: 1.125rem;
   font-weight: 400;
   color: #404040;
+  display: none;
+}
+
+dd.ativar {
+  display: block;
 }
